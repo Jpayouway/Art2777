@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Table </title>
+</head>
+<body>
+    <table border="1px" cellpadding="2px" cellspacing="2px">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>ID</th>
+            <th>Status</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">Eli Freeman</td>
+            <td>002</td>
+            <td>Sophomore</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Lawrence George</td>
+            <td>005</td>
+            <td>Freshman</td>
+        </tr>
+    </table>
+
+    <form action="" method="post">
+        <h2>Sign Up Form</h2>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Text your full name"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your email"> <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Choose a Password"> <br>
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" id="phone" placeholder="Phone Number"> <br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob">
+    </form>
+</body>
+</html>
